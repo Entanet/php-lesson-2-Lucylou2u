@@ -9,7 +9,15 @@
     $age = 33;
     $gender = "Male";
     $postcode = "TF32NS";
-    $move = "Stone Cold Stunner"; 
+    $move = "Mind Trick";  
+
+    if($age > 60){
+        $description = "Master";
+    }elseif($age > 20){
+        $description = "Padwan";
+    }else{
+        $description = "Youngling";
+    }
 
 ?>
 
@@ -38,6 +46,10 @@
         <tr>
             <th>Special Move</th>
             <td><?= $move ?></td>
+        </tr>
+        <tr>
+            <th>Description</th>
+            <td><?= $description ?></td>
         </tr>
         </tbody>
     </table>
