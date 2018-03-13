@@ -5,9 +5,9 @@
 </head>
 
 <?php
-    $name = "Mike";
-    $age = 33;
-    $gender = "Male";
+    $name = "Lucy Lou";
+    $age = 150;
+    $gender = "female";
     $postcode = "TF32NS";
     $move = "Mind Trick";  
 
