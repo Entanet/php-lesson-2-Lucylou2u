@@ -8,8 +8,8 @@
     $name = "Lucy Lou";
     $age = 150;
     $gender = "female";
-    $postcode = "TF32NS";
-    $move = "Mind Trick";  
+    $postcode = "SC0 0TER";
+    $move = "Crash";  
 
     if($age > 60){
         $description = "Master";
